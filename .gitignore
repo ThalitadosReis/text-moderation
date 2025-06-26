@@ -1,0 +1,8 @@
+# Python virtual environment
+venv/
+
+# Dependencies
+node_modules/
+
+# General system clutter
+.DS_Store
