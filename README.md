@@ -15,7 +15,7 @@ This is a practice project demonstrating a simple content moderation system usin
 #### Requirements
 
 - Python 3.7+
-- Dependencies:
+- - Dependencies listed in `requirements.txt`:
   - `fastapi`
   - `uvicorn`
   - `transformers`
@@ -25,16 +25,20 @@ This is a practice project demonstrating a simple content moderation system usin
 #### Install and Run
 
     cd backend
-    pip install fastapi uvicorn transformers torch
+    python3 -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    pip install -r requirements.txt
     uvicorn model:app --reload
 
 #### Endpoints
+
 - GET / — Health check
 - POST /moderate — Accepts input text and returns moderation scores
 
 ### Frontend (React)
 
 #### Requirements
+
 - Node.js
 - npm
 
