@@ -15,7 +15,7 @@ This is a practice project demonstrating a simple content moderation system usin
 #### Requirements
 
 - Python 3.7+
-- - Dependencies listed in `requirements.txt`:
+- Dependencies listed in `requirements.txt`:
   - `fastapi`
   - `uvicorn`
   - `transformers`
@@ -49,6 +49,7 @@ This is a practice project demonstrating a simple content moderation system usin
     npm run dev
 
 ## Features
+
 - Text classification using a pre-trained Hugging Face model 
 - Probabilities returned and sorted by most likely label
 - React UI with Tailwind styling
